@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Mais Saúde</string>
+    <string name="label_imc">IMC</string>
+    <string name="label_tmb">TMB</string>
+    <string name="label_agua">ÁGUA</string>
+    <string name="label_informacoes">INFORMAÇÕES</string>
+    <string name="imc_desc">IMC é a sigla para Índice de Massa Corporal que serve para avaliar o peso
+        do indivíduo em relação à sua altura e assim indicar se está dentro do peso ideal,
+        acima ou abaixo do peso desejado.\n\nPreencha os campos de peso e altura para descobrir o seu IMC</string>
+    <string name="tmb_desc">TMB é o cálculo para descobrir a quantidade de calórica que o corpor necessita com base no seu estilo de vida</string>
+    <string name="agua_desc">Tomar água é um ato simples e de extrema necessidade no dia a dia. \n\nO consumo deve atender a alguns poucos critérios popularmente desconhecidos. \n\Você sabe a quantidade de água que deve tomar todos os dias?</string>
+    <string name="weight">Peso (kg)</string>
+    <string name="height">Altura (cm)</string>
+    <string name="calc">Calcular</string>
+    <string name="nome">Nome</string>
+    <string name="fields_messages">Todos os campos devem ser preenchidos maiores que zero.</string>
+
+
+    <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="imc_so_high_weight">Moderadamente obeso</string>
+    <string name="imc_severely_high_weight">Severamente obeso</string>
+    <string name="imc_extreme_weight">Extremamente obeso</string>
+
+    <string name="imc_response">Seu IMC é: %1$.2f</string>
+    <string name="tmb_response">Seu TMB é: %1$.2f</string>
+    <string name="agua_response">Seu consumo ideal é: %1$.2fL de água por dia</string>
+    <string name="agua_qtd_response">Quantidade de copos de 310ml: %1$f \nLitros de água por dia</string>
+    <string name="save">Salvar</string>
+    <string name="saved">Registro salvo com sucesso</string>
+
+    <string name="list_response">Nome: %1$s, Resultado: %2$.2f, Data: %3$s</string>
+    <string name="nome_list">nome</string>
+    <string name="list_resultado">resultado</string>
+    <string name="list_data">data</string>
+    <string name="search">Buscar</string>
+    <string name="age">Idade</string>
+    <string name="delete_message">Deseja excluir?</string>
+
+
+</resources>

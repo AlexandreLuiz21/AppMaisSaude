@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ImcActivity">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/img_imc"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/TextViewForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imc_desc" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:drawableStart="@drawable/ic_edit_person_24"
+            android:hint="@string/nome"
+            android:inputType="textPersonName"
+
+            android:background="@drawable/edit_formulario"
+             />
+
+        <EditText
+            android:id="@+id/edit_imc_weight"
+            android:drawableStart="@drawable/ic_edit_weight_24"
+            android:hint="@string/weight"
+            style="@style/EditTextForm"
+            android:background="@drawable/edit_formulario"
+           />
+
+        <EditText
+            android:id="@+id/edit_imc_height"
+            android:drawableStart="@drawable/ic_edit_height_24"
+            android:hint="@string/height"
+            style="@style/EditTextForm"
+            android:background="@drawable/edit_formulario"
+            />
+
+        <Button
+            android:id="@+id/btn_imc_send"
+            android:text="@string/calc"
+            style="@style/ButtonForm"
+            android:width="150dp"
+            android:height="60dp"
+             />
+
+    </LinearLayout>
+
+</ScrollView>
