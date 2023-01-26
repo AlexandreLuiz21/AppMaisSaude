@@ -10,9 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaisSaude">
-        <activity android:name=".AguaActivity"
+        <activity android:name=".BebaAguaActivity"
             android:theme="@style/Theme.Telas"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AguaActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Telas" />
         <activity
             android:name=".TmbActivity"
             android:parentActivityName=".MainActivity"
@@ -27,6 +31,7 @@
             android:theme="@style/Theme.Telas" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

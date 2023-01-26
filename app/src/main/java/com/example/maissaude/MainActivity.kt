@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
                 3 -> {
                     //val intent = Intent(this@MainActivity, TmbActivity::class.java)
-                    val intent = Intent(this@MainActivity, AguaActivity::class.java)
+                    val intent = Intent(this@MainActivity, BebaAguaActivity::class.java)
                     startActivity(intent)
                 }
             }

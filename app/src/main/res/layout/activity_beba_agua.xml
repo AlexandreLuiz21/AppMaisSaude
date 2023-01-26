@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BebaAguaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/agua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/edit_agua_weight"
+        style="@style/EditTextForm"
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:layout_width="150dp"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_formulario"
+        android:drawableStart="@drawable/ic_edit_weight_24"
+        android:hint="@string/weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <EditText
+        android:id="@+id/edit_agua_age"
+        style="@style/EditTextForm"
+        android:layout_width="150dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_formulario"
+        android:drawableStart="@drawable/ic_baseline_date_range_24"
+        android:hint="@string/age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_degrade_button"
+        android:padding="10dp"
+        android:text="@string/text_button_calculate"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_agua_weight" />
+
+    <View
+        android:id="@+id/container_result_ml"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/container_result_ml"
+        app:layout_constraintTop_toBottomOf="@id/btn_calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_result_ml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="@id/container_result_ml"
+        app:layout_constraintStart_toStartOf="@id/container_result_ml"
+        app:layout_constraintEnd_toEndOf="@id/container_result_ml"
+        app:layout_constraintBottom_toBottomOf="@id/container_result_ml"/>
+
+    <Button
+        android:id="@+id/btn_definir_lembrete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_lembrete"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toBottomOf="@id/container_result_ml"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_alarme"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_alarme"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toBottomOf="@id/container_result_ml"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_hora"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_definir_lembrete" />
+
+    <TextView
+        android:id="@+id/txt_dois_pontos"
+        android:text="@string/text_dois_pontos"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btn_definir_lembrete"
+       app:layout_constraintStart_toEndOf="@id/txt_hora"/>
+
+    <TextView
+        android:id="@+id/txt_minutos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/text_minutos"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_definir_lembrete"
+        app:layout_constraintStart_toEndOf="@id/txt_dois_pontos" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

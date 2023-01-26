@@ -4,16 +4,20 @@
     <string name="label_tmb">TMB</string>
     <string name="label_agua">ÁGUA</string>
     <string name="label_informacoes">INFORMAÇÕES</string>
+    <string name="text_button_calculate">Calcular Ingestão Diária</string>
     <string name="imc_desc">IMC é a sigla para Índice de Massa Corporal que serve para avaliar o peso
         do indivíduo em relação à sua altura e assim indicar se está dentro do peso ideal,
         acima ou abaixo do peso desejado.\n\nPreencha os campos de peso e altura para descobrir o seu IMC</string>
     <string name="tmb_desc">TMB é o cálculo para descobrir a quantidade de calórica que o corpor necessita com base no seu estilo de vida</string>
-    <string name="agua_desc">Tomar água é um ato simples e de extrema necessidade no dia a dia. \n\nO consumo deve atender a alguns poucos critérios popularmente desconhecidos. \n\Você sabe a quantidade de água que deve tomar todos os dias?</string>
-    <string name="weight">Peso (kg)</string>
-    <string name="height">Altura (cm)</string>
+    <string name="agua_desc">Você sabe a quantidade de água que deve tomar todos os dias?</string>
+    <string name="desc_agua">A água corresponde a cerca de 60 a 70% da composição corporal total e é fundamental para o bom funcionamento do organismo.
+        \nPara saber uma estimativa de quanta água você precisa beber por dia, por favor insira seus dados na calculadora:</string>
+
+    <string name="weight">Seu Peso</string>
+    <string name="height">Sua Altura</string>
     <string name="calc">Calcular</string>
-    <string name="nome">Nome</string>
-    <string name="fields_messages">Todos os campos devem ser preenchidos maiores que zero.</string>
+    <string name="nome">Seu Nome</string>
+    <string name="fields_messages">Todos os campos devem ser preenchidos e maior que zero.</string>
 
 
     <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
@@ -37,8 +41,14 @@
     <string name="list_resultado">resultado</string>
     <string name="list_data">data</string>
     <string name="search">Buscar</string>
-    <string name="age">Idade</string>
+    <string name="age">Sua Idade</string>
     <string name="delete_message">Deseja excluir?</string>
+
+    <string name="text_button_lembrete">Lembrete</string>
+    <string name="text_button_alarme">Alarme</string>
+    <string name="text_hora">00</string>
+    <string name="text_dois_pontos">:</string>
+    <string name="text_minutos">00</string>
 
 
 </resources>
