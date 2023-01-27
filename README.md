@@ -19,4 +19,6 @@ O projeto consiste em um hub de soluções que vão de cálculos relacionados a 
     <li>RecycleView</li>
 	<li>Room</li>
 	<li>Persistência de dados</li>
+	<li>viewBinding</li>
+	<li>TimePicker</li>
 </ul>
