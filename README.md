@@ -13,8 +13,6 @@ O projeto consiste em um hub de soluções que vão de cálculos relacionados a 
 	<li>Quanto de água você deve tomar</li>
 </ul>
 
-# LINK PARA A APK DO APLICATIVO MAISSAUDE
-https://drive.google.com/file/d/1US_4BO4fT-Gkvbv95ofIL9uFiMDl5a0j/view?usp=drive_link
 
 # TECNOLOGIAS UTILIZADAS NO APP
 
@@ -24,3 +22,8 @@ https://drive.google.com/file/d/1US_4BO4fT-Gkvbv95ofIL9uFiMDl5a0j/view?usp=drive
 	<li>Persistência de dados</li>
 	<li>TimePicker</li>
 </ul>
+
+# LINK PARA A APK DO APLICATIVO MAISSAUDE
+https://drive.google.com/file/d/1US_4BO4fT-Gkvbv95ofIL9uFiMDl5a0j/view?usp=drive_link
+
+
