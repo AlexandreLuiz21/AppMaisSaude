@@ -1,7 +1,7 @@
 # App Mais Saúde
 Mais Saúde é uma aplicação desenvolvida voltada a área nutricional com foco na qualidade de vida e bem-estar
 
-![imagem_maissaude_git](https://github.com/AlexandreLuiz21/AppMaisSaude/assets/120724940/13a96e33-55d1-4be7-b750-2282b719857e)
+![imagem_maissaude_git](https://github.com/AlexandreLuiz21/AppMaisSaude/assets/120724940/c436d854-a8fe-41a0-83e6-d04d78b5bca0)
 
 # INFORMAÇÕES SOBRE O APP
 
